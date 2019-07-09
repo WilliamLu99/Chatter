@@ -18,7 +18,7 @@ export default function SimpleAppBar() {
       <AppBar position="static" color="default">
         <Toolbar>
           <Typography variant="h6" color="inherit">
-            Photos
+            Chatter
           </Typography>
         </Toolbar>
       </AppBar>
