@@ -29,7 +29,6 @@ const useStyles = makeStyles({
 function  Message(props) {
 
   const classes = useStyles();
-
   const messageClass = (props.sent) ? `${classes.root} ${classes.sent}` : `${classes.root} ${classes.received}`
 
   return (
